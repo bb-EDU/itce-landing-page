@@ -1,5 +1,9 @@
+body {
+  font-size: 1.5rem;
+}
+
 #mainNav {
-  background-color: #084298;
+  background-color: rgb(7.8, 66, 151.8);
 }
 
 /*# sourceMappingURL=custom.css.map */
