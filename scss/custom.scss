@@ -12,11 +12,14 @@
 
 // 8. Add additional custom code here
 body{
-    background-color: #000;
     font-size: 1.5rem;
 }
 
 
 #mainNav{
     background-color: $blue-700;
+}
+
+#websiteMainContainer {
+    margin-top: 4%;
 }
