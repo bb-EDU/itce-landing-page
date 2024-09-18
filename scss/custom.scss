@@ -1,5 +1,4 @@
 // Custom.scss
-// Option B: Include parts of Bootstrap
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
 @import "../node_modules/bootstrap/scss/functions";
@@ -10,7 +9,3 @@
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 8. Add additional custom code here
-
-#mainNav{
-    background-color: $blue-700;
-}
