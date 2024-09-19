@@ -10,4 +10,12 @@ body {
   margin-top: 4%;
 }
 
+#footer {
+  font-size: small;
+  text-align: center;
+  background-color: #f8f9fa;
+  height: 100%;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=custom.css.map */
