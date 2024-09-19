@@ -5,16 +5,17 @@ body {
 
 #pageName {
   font-weight: bold;
-  color: #e9ecef;
+  color: #212529;
 }
 
 .navbar-nav .nav-link {
-  color: #e9ecef;
+  color: #212529;
 }
 
 /* Optional: Change color on hover */
 .navbar-nav .nav-link:hover {
-  color: #e9ecef;
+  color: white;
+  background-color: #0d6efd;
 }
 
 #mainNav {
@@ -22,7 +23,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000; /* Ensure it stays above content */
-  background-color: #0d6efd;
+  background-color: #e9ecef;
+  opacity: 0.95; /* Looks smoother */
 }
 
 #websiteMainContainer {

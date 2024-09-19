@@ -11,9 +11,10 @@
 @import "../node_modules/bootstrap/scss/maps";
 
 // 8. Add additional custom code here
-$base-color: $blue;
+$base-color: $gray-200;
 $base-color-lighter: $teal-200;
-$nav-font-color: $gray-200;
+$nav-font-color: $gray-900;
+$nav-hover-color: $blue;
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -27,12 +28,14 @@ body{
 
 .navbar-nav .nav-link {
     color: $nav-font-color 
-  }
+}
   
   /* Optional: Change color on hover */
-  .navbar-nav .nav-link:hover {
-    color: $nav-font-color;
-  }
+.navbar-nav .nav-link:hover {
+    color: white;
+    background-color: $nav-hover-color;
+
+}
 
   
 #mainNav {
@@ -41,6 +44,7 @@ body{
     top: 0;
     z-index: 1000; /* Ensure it stays above content */
     background-color: $base-color;
+    opacity: 0.95; /* Looks smoother */
 }
 
   
