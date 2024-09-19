@@ -2,11 +2,20 @@ body {
   font-size: 1.5rem;
 }
 
+#pageName {
+  font-weight: bold;
+}
+
 #mainNav {
   position: -webkit-sticky; /* For Safari */
   position: sticky;
   top: 0;
   z-index: 1000; /* Ensure it stays above content */
+  background-color: #20c997;
+}
+
+#mainNav > * {
+  color: white;
 }
 
 #websiteMainContainer {
