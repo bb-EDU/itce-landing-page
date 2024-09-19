@@ -11,16 +11,30 @@
 @import "../node_modules/bootstrap/scss/maps";
 
 // 8. Add additional custom code here
-$base-color: $teal;
+$base-color: $blue;
 $base-color-lighter: $teal-200;
+$nav-font-color: $gray-200;
 
 body{
-    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
 }
 
 #pageName{
     font-weight: bold;
+    color: $nav-font-color
 }
+
+.navbar-nav .nav-link {
+    color: $nav-font-color 
+  }
+  
+  /* Optional: Change color on hover */
+  .navbar-nav .nav-link:hover {
+    color: $nav-font-color;
+  }
+
+  
 #mainNav {
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -29,9 +43,6 @@ body{
     background-color: $base-color;
 }
 
-#mainNav > * {
-    color: white;
-}
   
 
 #websiteMainContainer {
