@@ -49,6 +49,7 @@ body {
 .card {
   display: inline-block;
   width: 18rem;
+  margin: 2%;
 }
 
 /*# sourceMappingURL=custom.css.map */
